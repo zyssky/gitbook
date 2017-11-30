@@ -12,6 +12,7 @@
   * [基本数据结构](/数据结构/基本数据结构.md)
 * [算法](/算法/README.md)
   * [动态规划](/算法/动态规划.md)
+  * [编程思维](算法/bian-cheng-si-wei.md)
 * [计算机网络](/计算机网络/README.md)
   * [tcp/ip](/计算机网络/tcp_ip.md)
 * [Android Studio](android-studio.md)
