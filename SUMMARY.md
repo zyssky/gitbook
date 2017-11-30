@@ -20,4 +20,5 @@
   * [语法](kotlin/yu-fa.md)
 * 电影
   * [《斗牛》](300a-dou-niu-300b.md)
+  * [《杀生》](300a-sha-sheng-300b.md)
 
