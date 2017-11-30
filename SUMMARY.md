@@ -14,4 +14,10 @@
   * [动态规划](/算法/动态规划.md)
 * [计算机网络](/计算机网络/README.md)
   * [tcp/ip](/计算机网络/tcp_ip.md)
+* [Android Studio](android-studio.md)
+  * [import project](android-studio/test.md)
+* [Kotlin](kotlin.md)
+  * [语法](kotlin/yu-fa.md)
+* 电影
+  * [《斗牛》](300a-dou-niu-300b.md)
 
