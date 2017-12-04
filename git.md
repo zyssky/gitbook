@@ -23,13 +23,19 @@
 - 删除分支
 > git branch -d &ltbranch_name&gt
 
-- 复制仓库
+- 检出仓库
 > git clone /path/to/repository
-> git clone username@host:/path/to/repository
+> git clone username@host:/path/to/repository //用ssh
+> git clone https:/path/to/repository.git //用https
 
 - 添加到暂存区（可以先add再确认是commit到哪个branch）
 > git add &ltfilename&gt
 > git add *
+
+- 查看仓库状态
+> git status
+
+
 
 - 提交到head
 > git commit -m "代码提交信息"
@@ -38,7 +44,7 @@
 > git push origin &ltbranch_name&gt
 
 - 连接远程服务器
-> git remote add origin &ltserver&gt
+> git remote add origin &ltserver&gt //注意：origin是&ltserver&gt的别名
 
 - 更新本地仓库至最新
 > git pull //会尝试自动合并
@@ -58,4 +64,17 @@
 - 打标签
 > git tag 1.0.0 &ltcommit_id&gt
 
+- 查看仓库记录
+> git log
+> git log --help //打开网页查看help
+
+- 替换工作目录的改动（暂存区不会受影响），用head替换
+> git checkout -- &ltfilename&gt
+> git checkout .
+> git checkout &ltbranch_name&gt
+
+- 图形化工具
+> gitk
+
+- 
 
