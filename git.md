@@ -39,8 +39,10 @@
 
 - 提交到head
 > git commit -m "代码提交信息"
+> git commit --amend [--no-edit] //修复上一次提交(可以选择不修改提交信息)
 
 - 推送改动
+> git push &ltremote&gt &ltbranch&gt
 > git push origin &ltbranch_name&gt
 
 - 连接远程服务器
@@ -48,6 +50,12 @@
 
 - 更新本地仓库至最新
 > git pull //会尝试自动合并
+> git pull --rebase //用rebase而不是merge来获取新的改动
+
+- 获取远程分支
+> git fetch &ltremote&gt
+
+
 
 - 合并其他分支到当前分支
 > git merge &ltother_branch&gt
@@ -76,5 +84,29 @@
 - 图形化工具
 > gitk
 
-- 
+- 回滚错误提交
+> git revert &ltcommit_id&gt //保留上次提交，copy上上次提交覆盖
+
+- 撤销
+> git reset &ltfile&gt //取消缓存，不改变工作目录
+> git reset //取消缓存，不改变工作目录
+> git reset --hard //取消缓存和工作目录
+>
+> //回到那个commit，前面的提交记录都去掉，但工作目录不变
+> git reset &ltcommit_id&gt 
+> git reset --hard &ltcommit_id&gt //同时去掉工作目录
+
+- 去除为跟踪的文件
+> git clean -n //演戏，查看那些文件会被去除
+> git clean -f //真的执行去除未跟踪文件，不可撤销!
+
+- 变基(rebase)，保持线性提交历史
+> 例子：
+> //在new_feature分支，rebase到master，然后进行快速向前合并
+> git checkout new_feature
+> git rebase master
+> git checkout master
+> git merge new-feature
+
+
 
