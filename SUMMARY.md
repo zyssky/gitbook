@@ -2,8 +2,9 @@
 
 * [Introduction](README.md)
 * [Android](/Android/REMEAD.md)
-  * [多线程](/Android/多线程.md)
-  * [activity](Android/activity.md)
+  * [APP开发](Android/appkai-fa.md)
+    * [Activity](Android/appkai-fa/activity.md)
+    * [异步](Android/appkai-fa/yi-bu.md)
 * [Java](/Java/README.md)
   * [JVM](/Java/JVM.md)
 * [数据库](/数据库/README.md)
@@ -24,5 +25,6 @@
   * [《斗牛》](300a-dou-niu-300b.md)
   * [《杀生》](300a-sha-sheng-300b.md)
   * [《127小时》](127xiao-shi-300b.md)
+* 框架
 * [Git](git.md)
 
