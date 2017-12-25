@@ -5,6 +5,7 @@
   * [APP开发](Android/appkai-fa.md)
     * [Activity](Android/appkai-fa/activity.md)
     * [异步](Android/appkai-fa/yi-bu.md)
+  * [Android Studio](Android/android-studio.md)
 * [Java](/Java/README.md)
   * [JVM](/Java/JVM.md)
 * [数据库](/数据库/README.md)
