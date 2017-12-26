@@ -5,6 +5,7 @@
   * [APP开发](Android/appkai-fa.md)
     * [Activity](Android/appkai-fa/activity.md)
     * [异步](Android/appkai-fa/yi-bu.md)
+    * [内存泄漏](Android/appkai-fa/nei-cun-xie-lou.md)
   * [Android Studio](Android/android-studio.md)
 * [Java](/Java/README.md)
   * [JVM](/Java/JVM.md)
