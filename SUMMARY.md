@@ -7,6 +7,7 @@
     * [异步](Android/appkai-fa/yi-bu.md)
     * [内存泄漏](Android/appkai-fa/nei-cun-xie-lou.md)
   * [Android Studio](Android/android-studio.md)
+  * [Tools](Android/tools.md)
 * [Java](/Java/README.md)
   * [JVM](/Java/JVM.md)
 * [数据库](/数据库/README.md)
@@ -19,8 +20,6 @@
   * [巧劲](算法/qiao-jing.md)
 * [计算机网络](/计算机网络/README.md)
   * [tcp/ip](/计算机网络/tcp_ip.md)
-* [Android Studio](android-studio.md)
-  * [import project](android-studio/test.md)
 * [Kotlin](kotlin.md)
   * [语法](kotlin/yu-fa.md)
 * [电影](dian-ying.md)
@@ -29,4 +28,7 @@
   * [《127小时》](127xiao-shi-300b.md)
 * 框架
 * [Git](git.md)
+* [Tools](tools.md)
+  * [shadowsocks](tools/shadowsocks.md)
+  * [bat](tools/bat.md)
 
