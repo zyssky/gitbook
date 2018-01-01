@@ -31,6 +31,7 @@
 * [Tools](tools.md)
   * [shadowsocks](tools/shadowsocks.md)
   * [bat](tools/bat.md)
+  * [windows command](tools/windows-command.md)
 * [JavaScript](javascript.md)
 * [Python](python.md)
 
