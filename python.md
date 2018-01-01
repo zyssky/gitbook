@@ -10,7 +10,8 @@
 - 在交互模式中，最后被输出的表达式结果被赋值给变量 _
 - 比较函数用 (x>y)-(x&lty) 取代
 
-## 数据类型,运算
+
+## 数据类型，结构，运算
 - 无需声明，在被赋值后才被创建（如：count = 1 OK的！）
 - 允许你同时为多个变量赋值（a=b=c=1）
 - 一个变量可以通过赋值指向不同类型的对象
@@ -36,6 +37,7 @@ tup2 = (20,) # 一个元素，需要在元素后添加逗号
 - round（），遵循结果为奇数弃，偶数进，当然只针对小数为0.5的时候。如：round(10.5) = 10！！！
 
 
+
 ## 流程控制
 - else语句可以和for，while配合，如果 else 语句和 for 循环语句一起使用，else 语句块只在 for 循环正常终止时执行，而与while配合，当条件为False执行else
 - 计数可用range()函数
@@ -56,3 +58,31 @@ def 函数名（参数列表）:<br/>
 - lambda 函数：只一个语句。<br/>
 语法：lambda [arg1 [,arg2,.....argn]]:expression
 - 作用域：使用全局变量 要先声明一下：global arg，使用非全局但属于外部的变量，则：nonlocal arg
+- 同时遍历几个列表，用zip()
+- sorted(),reversed()返回对应操作后的序列
+- enumerate() 可以用来产生带index的迭代
+
+## 模块
+- 内置的函数 dir() 可以找到模块内定义的所有名称。以一个字符串列表的形式返回
+- 目录只有包含一个叫做 __init__.py 的文件才会被认作是一个包
+- 如果包定义文件 __init__.py 存在一个叫做 __all__ 的列表变量，那么在使用 from package import * 的时候就把这个列表中的所有名字作为包内容导入。
+
+## 输入和输出
+- pickle模块实现了基本的数据序列和反序列化，<br/>
+pickle.dump(obj, file, [,protocol])<br/>
+x = pickle.load(file)
+
+## 异常
+- try:   except ZeroDivisionError as err:    finally：
+- raise NameError("message")抛出异常
+- 预定义清理行为with，如： with open("a.txt") as f:。。。。。。这样在完成后确保文件能关闭
+
+## 面向对象
+- class MyClass:
+- 初始化：def \_\_init__(self,argv):
+- 私有属性：用\_\_开头
+- 继承：class MyClassA(MyClassB,MyClassC):
+- 运算符重载，可以dir查看对应名称，然后重载
+
+
+
