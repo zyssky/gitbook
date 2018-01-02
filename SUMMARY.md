@@ -26,6 +26,7 @@
   * [《斗牛》](300a-dou-niu-300b.md)
   * [《杀生》](300a-sha-sheng-300b.md)
   * [《127小时》](127xiao-shi-300b.md)
+  * [《海边的曼彻斯特》](300a-hai-bian-de-man-che-si-te-300b.md)
 * 框架
 * [Git](git.md)
 * [Tools](tools.md)
