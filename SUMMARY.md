@@ -27,6 +27,7 @@
   * [《杀生》](300a-sha-sheng-300b.md)
   * [《127小时》](127xiao-shi-300b.md)
   * [《海边的曼彻斯特》](300a-hai-bian-de-man-che-si-te-300b.md)
+  * [《银翼杀手2049》](300a-yin-yi-sha-shou-2049.md)
 * 框架
 * [Git](git.md)
 * [Tools](tools.md)
@@ -35,4 +36,6 @@
   * [windows command](tools/windows-command.md)
 * [JavaScript](javascript.md)
 * [Python](python.md)
+* [教程](jiao-cheng.md)
+  * [Django connect mysql](jiao-cheng/django-connect-mysql.md)
 
