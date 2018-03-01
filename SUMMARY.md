@@ -40,6 +40,7 @@
 * [Python](python.md)
 * [sensibleness](jiao-cheng.md)
   * [idea](jiao-cheng/django-connect-mysql.md)
+  * [concept](jiao-cheng/concept.md)
 * [机器学习](ji-qi-xue-xi.md)
   * [神经网络](ji-qi-xue-xi/shen-jing-wang-luo.md)
 
