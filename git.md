@@ -75,6 +75,7 @@
 - 查看仓库记录
 > git log
 > git log --help //打开网页查看help
+> git log --pretty=oneline --graph //以树状图查看log
 
 - 替换工作目录的改动（暂存区不会受影响），用head替换
 > git checkout -- &ltfilename&gt
