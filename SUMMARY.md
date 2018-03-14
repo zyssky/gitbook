@@ -35,5 +35,5 @@
   * [concept](jiao-cheng/concept.md)
   * [thoughts](jiao-cheng/thoughts.md)
 * [机器学习](ji-qi-xue-xi.md)
-  * [神经网络](ji-qi-xue-xi/shen-jing-wang-luo.md)
+  * [概念](ji-qi-xue-xi/shen-jing-wang-luo.md)
 
