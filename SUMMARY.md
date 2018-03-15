@@ -8,6 +8,7 @@
     * [内存泄漏](Android/appkai-fa/nei-cun-xie-lou.md)
   * [Android Studio](Android/android-studio.md)
   * [adb](Android/tools.md)
+  * [Android手机](Android/androidshou-ji.md)
 * [Java](/Java/README.md)
   * [JVM](/Java/JVM.md)
   * [note](Java/note.md)
@@ -36,4 +37,5 @@
   * [thoughts](jiao-cheng/thoughts.md)
 * [机器学习](ji-qi-xue-xi.md)
   * [概念](ji-qi-xue-xi/shen-jing-wang-luo.md)
+* [Linux](linux.md)
 
