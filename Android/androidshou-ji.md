@@ -32,8 +32,25 @@
 7,/system/lib存放几乎所有编译出来的动态库(.so)
 8,/system/vendor存放一些厂商的东西一般有applib之类的
 这几个应该算是最重要的，其它的目录不一一列出.
-如果想要修改/system下面的内容，可在shell终端输入：mount-o remount rw /system
-重挂载为可读写.
+如果想要修改/system下面的内容，可在shell终端输入：mount-o remount rw /system重挂载为可读写.
 ```
 
 - Android启动过程 --> [ Android——启动过程详解](http://blog.csdn.net/jscese/article/details/17115395)
+
+- dalvik 和 ART 和 JVM
+```
+1，dalvik
+Dalvik使用.dex格式，一个dex文件可以包含若干个类
+Dalvik指令是基于寄存器的
+自Android 2.2开始，Dalvik支持JIT技术
+Dalvik下，应用每次运行都需要通过即时编译器（JIT）将字节码转换为机器码
+2，JVM
+JVM使用的是class格式
+JVM使用的指令集是基于堆栈的
+3，ART
+ART运行的仍然是一个包含dex字节码的APK文件
+AOT(ahead-of-time预编译)在应用安装的时候将应用的dex字节码翻译成本地机器码(*.oat)
+4，使用ART的优缺点
+4.1 优点：省电，快，垃圾回收等机制上也有了较大的提升
+4.2 缺点：占空间，安装慢
+```
