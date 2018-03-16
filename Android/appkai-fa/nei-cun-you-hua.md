@@ -1,5 +1,6 @@
 概述：
 Android 一个应用的可使用内存上限是固定的，当应用设计不当导致可使用内存不足或者使用了过多的内存导致系统剩余内存不足，这些都是应该避免的。
+[CSDN-内存优化](http://blog.csdn.net/carson_ho/article/details/79549417?utm_source=tuicool&utm_medium=referral)
 
 - 内存限制查看
 ```
@@ -47,11 +48,29 @@ adb shell dumpsys meminfo $package_name or $pid
 ```
 PS : [Handler泄漏以及避免详情](https://www.androiddesignpatterns.com/2013/01/inner-class-handler-memory-leak.html "Handler泄漏以及避免")
 
+- 内存抖动
+```
+由于在短时间内大量的创建对象，然后不断触发gc，导致内存不稳定的现象，一般在循环中创建对象会造成该现象。
+```
+
+- bitmap处理
+[CSDN-介绍](http://blog.csdn.net/carson_ho/article/details/79549382)
+一般就用Glide
+
 - 内存检查工具
 ```
 1,LeakCanary 检测 Android 的内存泄漏，后续介绍
 2,Android Studio 的Monitor监测内存使用情况，后续介绍
 ```
+
+- 缓存和防止内存泄漏
+```
+SoftReference(软引用)用来做缓存，只有内存不足时的gc才会回收
+WeakReference(弱引用)用来防止内存泄漏，一旦gc就会回收
+```
+
+- 代码和数据结构上的优化
+![](/assets/内存优化-代码和数据结构.png)
 
 内存泄漏总结：
 ![](/assets/内存泄漏情况统计.png)
