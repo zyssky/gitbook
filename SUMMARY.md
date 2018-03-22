@@ -29,6 +29,7 @@
 * [Kotlin](kotlin.md)
 * [Python](python.md)
   * [package](python/package.md)
+  * [多线程和多进程](python/duo-xian-cheng-he-duo-jin-cheng.md)
 * [Git](git.md)
 * [Mysql](/数据库/README.md)
 * [Windows](tools/windows-command.md)
