@@ -69,6 +69,9 @@
 > //查看source（old）与target（new）的差异
 > git diff &ltsource_branch&gt &lttarget_branch&gt
 
+> //查看暂存区和上次commit的区别
+> git diff --cached
+
 - 打标签
 > git tag 1.0.0 &ltcommit_id&gt
 
